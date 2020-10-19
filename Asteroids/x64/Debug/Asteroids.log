@@ -1,0 +1,37 @@
+﻿  Bullet.cpp
+C:\Users\gusti\Desktop\Asteroids-backup\Asteroids\Bullet.cpp(23,83): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\gusti\Desktop\Asteroids-backup\Asteroids\Bullet.cpp(28,63): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gusti\Desktop\Asteroids-backup\Asteroids\Bullet.cpp(28,44): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gusti\Desktop\Asteroids-backup\Asteroids\Bullet.cpp(49,18): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gusti\Desktop\Asteroids-backup\Asteroids\Bullet.cpp(49,15): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Engine.cpp
+C:\Users\gusti\Desktop\Asteroids-backup\Asteroids\Engine.cpp(253,24): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\gusti\Desktop\Asteroids-backup\Asteroids\Engine.cpp(253,21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\gusti\Desktop\Asteroids-backup\Asteroids\Engine.cpp(255,36): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gusti\Desktop\Asteroids-backup\Asteroids\Engine.cpp(255,32): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gusti\Desktop\Asteroids-backup\Asteroids\Engine.cpp(265,40): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\gusti\Desktop\Asteroids-backup\Asteroids\Engine.cpp(294,84): warning C4244: 'argument': conversion from '_Ty2' to 'int', possible loss of data
+          with
+          [
+              _Ty2=float
+          ]
+C:\Users\gusti\Desktop\Asteroids-backup\Asteroids\Engine.cpp(294,40): warning C4244: 'argument': conversion from '_Ty1' to 'int', possible loss of data
+          with
+          [
+              _Ty1=float
+          ]
+C:\Users\gusti\Desktop\Asteroids-backup\Asteroids\Engine.cpp(293,95): warning C4244: 'argument': conversion from '_Ty2' to 'int', possible loss of data
+          with
+          [
+              _Ty2=float
+          ]
+C:\Users\gusti\Desktop\Asteroids-backup\Asteroids\Engine.cpp(293,51): warning C4244: 'argument': conversion from '_Ty1' to 'int', possible loss of data
+          with
+          [
+              _Ty1=float
+          ]
+  main.cpp
+C:\Users\gusti\Desktop\Asteroids-backup\Asteroids\main.cpp(12,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+C:\Users\gusti\Desktop\Asteroids-backup\Asteroids\main.cpp(14,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating Code...
+  Asteroids.vcxproj -> C:\Users\gusti\Desktop\Asteroids-backup\Asteroids\x64\Debug\Asteroids.exe

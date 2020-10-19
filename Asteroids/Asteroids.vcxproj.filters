@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{5a506657-a11c-4e52-87ad-dacb6b4a4833}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code">
+      <UniqueIdentifier>{cb6241e0-99fb-42c8-9902-dc8cb89b24ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Space">
+      <UniqueIdentifier>{7413c33f-e360-44d6-b29c-7d8826ca458d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\SpaceObjects">
+      <UniqueIdentifier>{f904de01-ae75-4d38-807e-3fe384722b0f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Key.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Asteroid.h">
+      <Filter>Code\SpaceObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="SpaceObject.h">
+      <Filter>Code\SpaceObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Code\SpaceObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Code\SpaceObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Space.h">
+      <Filter>Code\Space</Filter>
+    </ClInclude>
+    <ClInclude Include="Type.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Asteroid.cpp">
+      <Filter>Code\SpaceObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="SpaceObject.cpp">
+      <Filter>Code\SpaceObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Code\SpaceObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Code\SpaceObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Space.cpp">
+      <Filter>Code\Space</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
